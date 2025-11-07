@@ -1,3 +1,7 @@
+# 7 WEEKEND DETECTOR (MATCH STATEMENT)
+# This script asks the user for a number (1–7) and tells which day it represents.
+# It uses the new match-case statement introduced in Python 3.10.
+
 day = int(input("Enter a number (1–7): "))
 
 match day:
@@ -13,3 +17,4 @@ match day:
         print("Looking forward to the weekend!")
     case _:
         print("Invalid day number.")
+
