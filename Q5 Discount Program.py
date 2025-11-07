@@ -1,3 +1,7 @@
+# 5 DISCOUNT PROGRAM
+# This script calculates discounts based on the product price.
+# It shows how arithmetic operators and conditions can be used together.
+
 product = input("Enter product name: ")
 price = float(input("Enter product price: "))
 
@@ -9,3 +13,4 @@ else:
     discounted_price = price
 
 print(f"The {product} now costs {discounted_price} KES after discount.")
+
