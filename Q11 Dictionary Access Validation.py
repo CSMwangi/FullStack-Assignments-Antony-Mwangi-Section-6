@@ -1,3 +1,7 @@
+# 11 DICTIONARY ACCESS VALIDATION
+# This program updates a user's profile verification status.
+# It demonstrates how to modify values inside a Python dictionary based on user input.
+
 user_profile = {
     "name": "Antony Mwangi",
     "email": "info.csmwangi@gmail.com",
@@ -12,3 +16,4 @@ if verified == "yes":
 else:
     print("Verification pending.")
     
+
